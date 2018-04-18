@@ -33,9 +33,7 @@ with open('deletedPosts.csv') as deletedPosts:
 					rowcount += 1
 					if float(row[0]) in deletedIds:
 						count += 1
-				if rowcount2 >= rowcount:
-					break
-				print(rowcount2)
+				
 			print("total number of deleted for others= "+str(count))	
 			print("total number = "+str(rowcount2))		
 					
