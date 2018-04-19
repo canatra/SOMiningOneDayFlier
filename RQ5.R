@@ -14,6 +14,8 @@ a2=sum(is.na(onedayAnswerCount$answer_count))
 #avg
 a22=sum(is.na(onedayAnswerCount$answer_count))/128260*100
 
+# one day fly was 19%
+# all users was 7%
 #plot
 
 
