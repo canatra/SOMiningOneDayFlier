@@ -7,5 +7,5 @@ onedayflies_user_ids <- read_csv("Downloads/onedayflies_user_ids.csv")
 #use the match funcation called semi_join
  match1 <- semi_join(onedayflies_user_ids, allUsersPostedQuestions)
  
- # total number of onedayflies that are not onedayflies anymore is 436 out of the 128260
+ # total number of onedayflies that are not onedayflies anymore is 66258 out of the 128260
  
