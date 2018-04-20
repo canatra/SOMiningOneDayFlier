@@ -2,7 +2,7 @@ import csv
 
 
 with open('onedayTags.csv') as onedayTags:
-	with open('otherTags.csv') as otherTags:
+	with open('othertags.csv') as otherTags:
 
 		oneDayreader = csv.reader(onedayTags)
 		allreader = csv.reader(otherTags)
@@ -28,8 +28,7 @@ with open('onedayTags.csv') as onedayTags:
 		
 		count = 0
 		for row in allreader:
-			if count == 248141:
-			 	break
+		
 			if len(row) > 0:
 				
 				rowBreak = row[0].split('>')

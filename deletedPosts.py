@@ -1,6 +1,6 @@
 import csv
 
-with open('deletedPosts.csv') as deletedPosts:
+with open('combined.csv') as deletedPosts:
 	with open('onedayfliesId.csv') as fliesId:
 		with open('notOneDayFliesId.csv') as NotId:
 			fliesReader = csv.reader(fliesId)
@@ -13,7 +13,6 @@ with open('deletedPosts.csv') as deletedPosts:
 			for row in deletedReader:
 				if 'Id' not in row:
 					deletedIds.append(float(row[0]))
-			#print(deletedIds)
 
 			for row in fliesReader:
 				
@@ -33,7 +32,7 @@ with open('deletedPosts.csv') as deletedPosts:
 					rowcount += 1
 					if float(row[0]) in deletedIds:
 						count += 1
-				
+
 			print("total number of deleted for others= "+str(count))	
 			print("total number = "+str(rowcount2))		
 					
