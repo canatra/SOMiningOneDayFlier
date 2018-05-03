@@ -10,3 +10,4 @@
 #### For RQ 6 we used two parts
 ##### Part 1: RQ6 part1.R Matches the onedayflies in our set to current posts after July 31, 2012. This will tell us if the users have posted again, i.e. thes users that are no longer onedayflies.
 ##### Part 2: We used two files RQ6 part2.R and RQ6 part3.R. The first file is preprocessing the data, we start by getting the columns that we need to find the average date. In the second file we match onedayflies to current posts and write data into a csv file. In Excel we calculate the average number of days before the user posts again.
+#### detailed report.pdf contains the detailed report for our data mining class
